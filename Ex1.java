@@ -1,5 +1,4 @@
 import javax.swing.JOptionPane;
-import javax.swing.JoptionPane;git commit -1 -m "Variaveis do exercicio 1 declaradas"
 public class Ex1 {
     public static void main(String[] args) {
         // declaração de variáveis
@@ -8,18 +7,18 @@ public class Ex1 {
         double resultado;
         //entrada
         cotacao = Double.parseDouble(
-            JOtionPane.showInputDialog(
+            JOptionPane.showInputDialog(
                 "Qual a cotação?"
 
             )
         );
-        quantidadeDolares = Doble.parseDouble(
+        quantidadeDolares = Double.parseDouble(
             JOptionPane.showInputDialog(
                 "Qual a qtde de dolares?"
          )
          );
          //processamento
-         resultado = quantidadedolares * cotacao;
+         resultado = quantidadeDolares * cotacao;
          //saida
          JOptionPane.showMessageDialog(null,
          "valor convertido: " + resultado
